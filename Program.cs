@@ -1,7 +1,10 @@
-﻿internal class Program
+﻿using Revif;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Login ras = new Login();
+        ras.ReadJSON();
     }
-}
+}   

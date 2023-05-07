@@ -1,0 +1,15 @@
+C:\Telkom\Semester 4\KPL\tubes\Revif\bin\Debug\net6.0\Revif.exe
+C:\Telkom\Semester 4\KPL\tubes\Revif\bin\Debug\net6.0\Revif.deps.json
+C:\Telkom\Semester 4\KPL\tubes\Revif\bin\Debug\net6.0\Revif.runtimeconfig.json
+C:\Telkom\Semester 4\KPL\tubes\Revif\bin\Debug\net6.0\Revif.dll
+C:\Telkom\Semester 4\KPL\tubes\Revif\bin\Debug\net6.0\Revif.pdb
+C:\Telkom\Semester 4\KPL\tubes\Revif\obj\Debug\net6.0\Revif.csproj.AssemblyReference.cache
+C:\Telkom\Semester 4\KPL\tubes\Revif\obj\Debug\net6.0\Revif.GeneratedMSBuildEditorConfig.editorconfig
+C:\Telkom\Semester 4\KPL\tubes\Revif\obj\Debug\net6.0\Revif.AssemblyInfoInputs.cache
+C:\Telkom\Semester 4\KPL\tubes\Revif\obj\Debug\net6.0\Revif.AssemblyInfo.cs
+C:\Telkom\Semester 4\KPL\tubes\Revif\obj\Debug\net6.0\Revif.csproj.CoreCompileInputs.cache
+C:\Telkom\Semester 4\KPL\tubes\Revif\obj\Debug\net6.0\Revif.dll
+C:\Telkom\Semester 4\KPL\tubes\Revif\obj\Debug\net6.0\refint\Revif.dll
+C:\Telkom\Semester 4\KPL\tubes\Revif\obj\Debug\net6.0\Revif.pdb
+C:\Telkom\Semester 4\KPL\tubes\Revif\obj\Debug\net6.0\Revif.genruntimeconfig.cache
+C:\Telkom\Semester 4\KPL\tubes\Revif\obj\Debug\net6.0\ref\Revif.dll
