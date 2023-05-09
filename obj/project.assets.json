@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Materi Tel U\\Semester 4\\KPL KELAS\\KPL TUBES\\Revif\\Revif.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\Revif.csproj",
       "projectName": "Revif",
-      "projectPath": "D:\\Materi Tel U\\Semester 4\\KPL KELAS\\KPL TUBES\\Revif\\Revif.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Materi Tel U\\Semester 4\\KPL KELAS\\KPL TUBES\\Revif\\obj\\",
+      "projectPath": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\Revif.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
