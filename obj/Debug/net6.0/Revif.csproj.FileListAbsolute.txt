@@ -1,0 +1,15 @@
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\bin\Debug\net6.0\Revif.exe
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\bin\Debug\net6.0\Revif.deps.json
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\bin\Debug\net6.0\Revif.runtimeconfig.json
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\bin\Debug\net6.0\Revif.dll
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\bin\Debug\net6.0\Revif.pdb
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\obj\Debug\net6.0\Revif.csproj.AssemblyReference.cache
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\obj\Debug\net6.0\Revif.GeneratedMSBuildEditorConfig.editorconfig
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\obj\Debug\net6.0\Revif.AssemblyInfoInputs.cache
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\obj\Debug\net6.0\Revif.AssemblyInfo.cs
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\obj\Debug\net6.0\Revif.csproj.CoreCompileInputs.cache
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\obj\Debug\net6.0\Revif.dll
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\obj\Debug\net6.0\refint\Revif.dll
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\obj\Debug\net6.0\Revif.pdb
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\obj\Debug\net6.0\Revif.genruntimeconfig.cache
+D:\Materi Tel U\Semester 4\KPL KELAS\KPL TUBES\Revif\obj\Debug\net6.0\ref\Revif.dll
