@@ -1,0 +1,17 @@
+[
+  {
+    "Fullname": "Default",
+    "Username": "Default",
+    "AccountDescription": "Default",
+    "Languages": [
+      "English"
+    ],
+    "listJasa": [
+      {
+        "judul_jasa": "Video Editor",
+        "harga": 20,
+        "deskripsi": "I can edit your Youtube video."
+      }
+    ]
+  }
+]
