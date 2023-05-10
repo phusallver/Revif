@@ -3,21 +3,23 @@ public class Program
 {
     public static void Main()
     {
-        Pesanan pesanan = new Pesanan("Penerjemahan Bahasa Inggris-Indonesia", "Terjemahkan dokumen bisnis", 3, 500000);
+        Pesanan pesanan = new Pesanan("Jasa Penulisan Artikel", "Penulisan artikel 500 kata", 2, 100000);
 
-
+        // Tampilkan detail pesanan
         pesanan.ShowDetail();
         Console.WriteLine("");
 
-        // Lakukan pembayaran
-        pesanan.Bayar("Dana");
+        // Bayar pesanan dengan metode pembayaran "Transfer"
+        pesanan.Bayar("Transfer");
+        Console.WriteLine("");
         pesanan.ShowDetail();
         Console.WriteLine("");
 
-
-        // Lakukan konfirmasi selesai
+        // Konfirmasi pesanan selesai
         pesanan.KonfirmasiSelesai();
-        pesanan.ShowDetail();
         Console.WriteLine("");
+
+        // Tampilkan detail pesanan setelah selesai
+        pesanan.ShowDetail();
     }
 }
