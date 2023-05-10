@@ -1,0 +1,5 @@
+C:\Users\ryan\Documents\KPL\tubes\Revif\obj\Debug\net6.0\Revif.csproj.AssemblyReference.cache
+C:\Users\ryan\Documents\KPL\tubes\Revif\obj\Debug\net6.0\Revif.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryan\Documents\KPL\tubes\Revif\obj\Debug\net6.0\Revif.AssemblyInfoInputs.cache
+C:\Users\ryan\Documents\KPL\tubes\Revif\obj\Debug\net6.0\Revif.AssemblyInfo.cs
+C:\Users\ryan\Documents\KPL\tubes\Revif\obj\Debug\net6.0\Revif.csproj.CoreCompileInputs.cache

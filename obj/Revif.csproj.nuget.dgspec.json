@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\Revif.csproj": {}
+    "C:\\Users\\ryan\\Documents\\KPL\\tubes\\Revif\\Revif.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\Revif.csproj": {
+    "C:\\Users\\ryan\\Documents\\KPL\\tubes\\geser\\geser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\Revif.csproj",
-        "projectName": "Revif",
-        "projectPath": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\Revif.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\obj\\",
+        "projectUniqueName": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\geser\\geser.csproj",
+        "projectName": "geser",
+        "projectPath": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\geser\\geser.csproj",
+        "packagesPath": "C:\\Users\\ryan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\geser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,66 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ryan\\Documents\\KPL\\tubes\\Revif\\Revif.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\Revif\\Revif.csproj",
+        "projectName": "Revif",
+        "projectPath": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\Revif\\Revif.csproj",
+        "packagesPath": "C:\\Users\\ryan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\Revif\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ryan\\Documents\\KPL\\tubes\\geser\\geser.csproj": {
+                "projectPath": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\geser\\geser.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

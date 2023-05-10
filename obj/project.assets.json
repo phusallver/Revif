@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "geser/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/geser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/geser.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "geser/1.0.0": {
+      "type": "project",
+      "path": "../geser/geser.csproj",
+      "msbuildProject": "../geser/geser.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "geser >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {}
+    "C:\\Users\\ryan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\Revif.csproj",
+      "projectUniqueName": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\Revif\\Revif.csproj",
       "projectName": "Revif",
-      "projectPath": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\Revif.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\obj\\",
+      "projectPath": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\Revif\\Revif.csproj",
+      "packagesPath": "C:\\Users\\ryan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\Revif\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ryan\\Documents\\KPL\\tubes\\geser\\geser.csproj": {
+              "projectPath": "C:\\Users\\ryan\\Documents\\KPL\\tubes\\geser\\geser.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -61,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
