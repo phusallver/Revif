@@ -3,23 +3,36 @@ public class Program
 {
     public static void Main()
     {
-        Pesanan pesanan = new Pesanan("Jasa Penulisan Artikel", "Penulisan artikel 500 kata", 2, 100000);
+        Pesanan pesanan1 = new Pesanan("Jasa Penulisan Artikel", "Penulisan artikel mendukung banteng merah", 2, 100000);
 
         // Tampilkan detail pesanan
-        pesanan.ShowDetail();
+        pesanan1.ShowDetail();
         Console.WriteLine("");
 
         // Bayar pesanan dengan metode pembayaran "Transfer"
-        pesanan.Bayar("Transfer");
+        pesanan1.Bayar("Transfer Bank");
         Console.WriteLine("");
-        pesanan.ShowDetail();
+        pesanan1.ShowDetail();
         Console.WriteLine("");
 
         // Konfirmasi pesanan selesai
-        pesanan.KonfirmasiSelesai();
+        pesanan1.KonfirmasiSelesai();
         Console.WriteLine("");
 
         // Tampilkan detail pesanan setelah selesai
-        pesanan.ShowDetail();
+        pesanan1.ShowDetail();
+
+
+        Console.WriteLine("================================================================\n");
+        Pesanan pesanan2 = new Pesanan("Jasa Design Poster", "Membuat design poster untuk kampanye megachan", 3, 1000000);
+
+        // Tampilkan detail pesanan
+        pesanan2.ShowDetail();
+        Console.WriteLine("");
+
+        // Melakukan pembatalan
+        pesanan2.BatalPesanan();
+        Console.WriteLine("");
+        pesanan2.ShowDetail();
     }
 }
