@@ -24,7 +24,7 @@ public class Program
 
 
         Console.WriteLine("================================================================\n");
-        Pesanan pesanan2 = new Pesanan("Jasa Design Poster", "Membuat design poster untuk kampanye megachan", 3, 1000000);
+        Pesanan pesanan2 = new Pesanan("Jasa Design Poster", "Membuat design poster untuk kampanye megachan", 3, 1500000);
 
         // Tampilkan detail pesanan
         pesanan2.ShowDetail();
