@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using geser;
 
 namespace Revif
 {
@@ -26,41 +25,41 @@ namespace Revif
         }
     }
 }
-public class Pembeli
-{
-    public List<Pesanan> pemesanan { get; set; }
-    public Pembeli()
+    public class Pembeli
     {
-        pemesanan = new List<Pesanan>();
+        public List<Pesanan> pemesanan { get; set; }
+        public Pembeli()
+        {
+            pemesanan = new List<Pesanan>();
+        }
     }
-}
-public class Penjual
-{
-    public string description { get; set; }
-    public List<string> language { get; set; }
-    public List<Pesanan> pesanan { get; set; }
-    public List<Jasa> jasa { get; set; }
-    public Penjual()
+    public class Penjual
     {
-        language = new List<string>();
-        pesanan = new List<Pesanan>();
-        jasa = new List<Jasa>();
-    }
+        public string description { get; set; }
+        public List<string> language { get; set; }
+        public List<Pesanan> pesanan { get; set; }
+        public List<Jasa> jasa { get; set; }
+        public Penjual()
+        {
+            language = new List<string>();
+            pesanan = new List<Pesanan>();
+            jasa = new List<Jasa>();
+        }
 
-}
-public class Pesanan
-{
-    public string nama_pesanan { get; set; }
-    public Akun akunPenyedia { get; set; }
-    public string jenis_jasa { get; set; }
-    public string deskripsi_pesanan { get; set; }
-    public string status_pesanan { get; set; }
-    public Pesanan() { }
-}
-public class Jasa
-{
-    public string judul_jasa { get; set; }
-    public int harga { get; set; }
-    public string deskripsi { get; set; }
-    public Jasa() { }
-}
+    }
+    public class Pesanan
+    {
+        public string nama_pesanan { get; set; }
+        public string akun_penyedia { get; set; }
+        public string jenis_jasa { get; set; }
+        public string deskripsi_pesanan { get; set; }
+        public string status_pesanan { get; set; }
+        public Pesanan() { }
+    }
+    public class Jasa
+    {
+        public string jenis_jasa { get; set; }
+        public int harga { get; set; }
+        public string deskripsi { get; set; }
+        public Jasa() { }
+    }

@@ -1,0 +1,19 @@
+{
+  "akun": [
+    {
+      "email": null,
+      "username": "Admin",
+      "password": "Admin",
+      "fullname": null,
+      "pembeli": {
+        "pemesanan": []
+      },
+      "penjual": {
+        "description": null,
+        "language": [],
+        "pesanan": [],
+        "jasa": []
+      }
+    }
+  ]
+}

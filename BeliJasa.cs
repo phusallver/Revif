@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace Revif
 {
@@ -13,40 +14,37 @@ namespace Revif
             string jenis_jasa, string deskripsi_pesanan)
         {
             Pesanan pesanan = new Pesanan();
-            pesanan.akunPenyedia = akun;
+            pesanan.akun_penyedia = akun.username;
             pesanan.nama_pesanan = nama_pesanan;
             pesanan.jenis_jasa = jenis_jasa;
             pesanan.deskripsi_pesanan = deskripsi_pesanan;
             pesanan.status_pesanan = "Belum terbayar";
             return pesanan;
         }
-        public Pesanan tambahPesanan(List<Akun> lis)
+        public Pesanan tambahPesanan(List<Akun> lis, Akun akun_penjual)
         {
             Pesanan data;
-            Akun akun = cariAkun(lis);
             Console.Write("Enter Order Name : ");
             string nama_pesanan = Console.ReadLine();
             Console.Write("Enter Jenis Order : ");
             string jenis_jasa = Console.ReadLine();
             Console.Write("Enter Order Description : ");
             string deskripsi_pesanan = Console.ReadLine();
-            data = bikinPesanan(akun, nama_pesanan, jenis_jasa, deskripsi_pesanan);
+            data = bikinPesanan(akun_penjual, nama_pesanan, jenis_jasa, deskripsi_pesanan);
             return data;
         }
-
         geser.geser gsr = new geser.geser();
 
-        public Akun cariAkun(List<Akun> lis)
+        public Akun cariAkun(List<Akun> lis, string cari_uname)
         {
-            Console.Write("Enter Penyedia Jasa : ");
-            string cariAkun = Console.ReadLine();
+            Debug.Assert(cari_uname != null);
             Akun akun = new Akun("", ""); int i;
-            while (akun.username != cariAkun)
+            while (akun.username != cari_uname)
             {
                 i = 0;
                 while (gsr.geserr<Akun>(lis, i))
                 {
-                    if (lis[i].username == cariAkun)
+                    if (lis[i].username == cari_uname)
                     {
                         akun = lis[i];
                     }
@@ -56,15 +54,31 @@ namespace Revif
                 {
                     Console.WriteLine("Username not found.");
                     Console.Write("Enter Penyedia Jasa : ");
-                    cariAkun = Console.ReadLine();
+                    cari_uname = Console.ReadLine();
                 }
             }
             return akun;
         }
+        public void cekPemesanan(Akun akun)
+        {
+            int i = 1;
+            foreach (Pesanan pesanan in akun.pembeli.pemesanan)
+            {
+                Console.WriteLine(i + ". ");
+                Console.WriteLine("Order    : " + pesanan.nama_pesanan);
+                Console.WriteLine("Artist   : " + pesanan.akun_penyedia);
+                Console.WriteLine("Status   : " + pesanan.status_pesanan);
+                i++;
+            }
+        }
         public void tambahDataPesanan(Akun akun, List<Akun> lis)
         {
-            Pesanan pesanan = tambahPesanan(lis);
+            Console.Write("Enter Penyedia Jasa : ");
+            string cari_uname = Console.ReadLine();
+            Akun akun_penjual = cariAkun(lis, cari_uname);
+            Pesanan pesanan = tambahPesanan(lis, akun_penjual);
             akun.pembeli.pemesanan.Add(pesanan);
+            akun_penjual.penjual.pesanan.Add(pesanan);
         }
     }
 }

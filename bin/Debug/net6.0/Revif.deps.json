@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Revif/1.0.0": {
+        "dependencies": {
+          "geser": "1.0.0"
+        },
+        "runtime": {
+          "Revif.dll": {}
+        }
+      },
+      "geser/1.0.0": {
+        "runtime": {
+          "geser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Revif/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "geser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
