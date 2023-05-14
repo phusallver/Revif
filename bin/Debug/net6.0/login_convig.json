@@ -2,8 +2,8 @@
   "akun": [
     {
       "email": null,
-      "username": "admin",
-      "password": "mimin",
+      "username": "mimin",
+      "password": "123",
       "fullname": null,
       "pembeli": {
         "Pemesanan": []

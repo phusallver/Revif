@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Revif
 {
-    internal class EditProfile
+    public class EditProfile
     {
         public Akun akun;
         public enum dataan
@@ -37,6 +38,9 @@ namespace Revif
                 {
                     Console.Write("Input new username: ");
                     string newUsername = Console.ReadLine();
+
+                    Debug.Assert(newUsername != null && newUsername.Length <= 15, "Username tidak boleh melebihi 15 karakter atau kosong");
+
                     if (newUsername == loginConvig.ListAkun.akun[i].username)
                     {
                         Console.WriteLine("Username already registered");
@@ -72,19 +76,22 @@ namespace Revif
                 {
                     Console.Write("Input new password: ");
                     string newPassword = Console.ReadLine();
+
+                    Debug.Assert(newPassword != null && newPassword.Length <= 15, "Username tidak boleh melebihi 15 karakter atau kosong");
+
                     if (newPassword == loginConvig.ListAkun.akun[i].password)
                     {
                         Console.WriteLine("password already registered");
                     }
                     else
                     {
-                        Console.Write("Are you sure you want to change your password to " + newPassword + "? (y/n): ");
+                        Console.Write("Please rewrite your password: ");
                         string confirm = Console.ReadLine();
-                        if (confirm == "y")
+                        if (confirm == newPassword)
                         {
                             loginConvig.ListAkun.akun[i].password = newPassword;
                         }
-                        string confirmed = (confirm == "y") ? "Password has been changed" : "Password did not change";
+                        string confirmed = (confirm == newPassword) ? "Password has been changed" : "Password did not change";
                         Console.WriteLine(confirmed);
                     }
                     break;
@@ -94,5 +101,42 @@ namespace Revif
             loginConvig.WriteKonfigFile();
             return loginConvig.ListAkun.akun[i];
         }
+
+        public bool cekPassword(Akun akun, string password)
+        {
+            if (akun.password == password)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool cekUsername(Akun akun, string uname)
+        {
+            if (akun.username == uname)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public Akun gantiPassword(Akun akun,string newPassword)
+        {
+            akun.password = newPassword;
+            return akun;
+        }
+
+        public Akun gantiUname(Akun akun, string newUname)
+        {
+            akun.username = newUname;
+            return akun;
+        }
+
     }
 }

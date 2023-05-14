@@ -47,6 +47,11 @@ namespace Revif
             ListAkun = new Konfig();
             ListAkun.akun.Add(new Akun("Admin", "Admin"));
         }
+
+        public T ReadKonfigFile<T>()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
