@@ -1,7 +1,10 @@
-﻿internal class Program
+﻿using Revif;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Menu thee = new Menu();
+        thee.masuk();
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\obj\Debug\net6.0\Revif.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\obj\Debug\net6.0\Revif.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\obj\Debug\net6.0\Revif.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\obj\Debug\net6.0\Revif.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\obj\Debug\net6.0\Revif.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\bin\Debug\net6.0\Revif.exe
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\bin\Debug\net6.0\Revif.deps.json
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\bin\Debug\net6.0\Revif.runtimeconfig.json
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\bin\Debug\net6.0\Revif.dll
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\bin\Debug\net6.0\Revif.pdb
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\obj\Debug\net6.0\Revif.dll
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\obj\Debug\net6.0\refint\Revif.dll
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\obj\Debug\net6.0\Revif.pdb
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\obj\Debug\net6.0\Revif.genruntimeconfig.cache
+C:\Users\USER\OneDrive\Documents\GitHub\Revif\obj\Debug\net6.0\ref\Revif.dll

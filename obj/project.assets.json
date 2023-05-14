@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\Revif.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Documents\\GitHub\\Revif\\Revif.csproj",
       "projectName": "Revif",
-      "projectPath": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\Revif.csproj",
+      "projectPath": "C:\\Users\\USER\\OneDrive\\Documents\\GitHub\\Revif\\Revif.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\OneDrive\\Documents\\git\\Revif\\obj\\",
+      "outputPath": "C:\\Users\\USER\\OneDrive\\Documents\\GitHub\\Revif\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
