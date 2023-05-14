@@ -1,0 +1,40 @@
+{
+  "akun": [
+    {
+      "email": null,
+      "username": "Admin",
+      "password": "Admin",
+      "fullname": null,
+      "pembeli": {
+        "pemesanan": []
+      },
+      "penjual": {
+        "description": null,
+        "language": [],
+        "pesanan": [],
+        "jasa": [
+          {
+            "jenis_jasa": "Ini Test",
+            "harga": 20,
+            "deskripsi": "Ini Test"
+          },
+          {
+            "jenis_jasa": "tes",
+            "harga": 20000,
+            "deskripsi": "yey"
+          },
+          {
+            "jenis_jasa": "tes",
+            "harga": 20000,
+            "deskripsi": "tes"
+          },
+          {
+            "jenis_jasa": "Voice Actor",
+            "harga": 200000,
+            "deskripsi": "I can do voice acting."
+          }
+        ]
+      }
+    }
+  ]
+}
